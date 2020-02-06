@@ -1,0 +1,6 @@
+{
+  "npmClient": "yarn",
+  "version": "3.20.2",
+  "packages": ["packages/frontend/*"],
+  "useWorkspaces": true
+}
