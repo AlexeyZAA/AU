@@ -1,18 +1,11 @@
 import React, { FC } from 'react'
 import { injectIntl, InjectedIntl } from 'react-intl'
-//import { Column, Layout, Row } from '@ui/layout'
-//import { Text } from '@ui/text'
-//import { Input } from '@ui/input'
-//import { Button } from '@ui/button'
-//import { RouteLink } from '@ui/link'
-//import messages from '../../messages'
-import { Column, Layout, Row } from '../../../../../../ui/layout'
-import { Text } from '../../../../../../ui/text'
-import { Input } from '../../../../../../ui//input'
-import { Button } from '../../../../../../ui//button'
-import { RouteLink } from '../../../../../../ui//link'
+import { Column, Layout, Row } from '@frontend/ui/layout'
+import { Text } from '@frontend/ui/text'
+import { Input } from '@frontend/ui/input'
+import { Button } from '@frontend/ui/button'
+import { RouteLink } from '@frontend/ui/link'
 import messages from '../../messages'
-
 
 interface Props {
   intl: InjectedIntl
